@@ -1,0 +1,69 @@
+body {
+   background: url("/Users/alexandereversbusch1/Desktop/Bootstrap Portfolio DoOver/concrete_seamless.png");
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth-image {
+float: left;
+width: 200px;
+height: 200px;
+margin-right: 10px;
+}
+
+* {
+    margin: 0;
+  }
+
+html, body {
+    height: 100%;
+  }
+
+#main-container {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px;
+    background-color: white;
+    margin-top: 20px;
+    }
+
+#main-container:after {
+    content: "";
+    display: block;
+    }
+    
+.site-footer, #main-content:after {
+    height: 142px; 
+      }
+
+.push {
+    height: 142px;
+}
+
+.site-footer {
+    background: grey;
+    border-top: 8px solid teal;
+      }
+.footer-text {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 61px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: teal;
+}
+
+#logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
