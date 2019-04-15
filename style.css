@@ -67,3 +67,11 @@ input[type=submit]:hover {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.yourname {
+  width: 158px;
+  padding: 3px;
+  background-color: teal;
+  color: white;
+}
+
